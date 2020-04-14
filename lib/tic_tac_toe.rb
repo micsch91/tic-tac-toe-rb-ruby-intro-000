@@ -140,7 +140,7 @@ end
 
 if won?(board)
   puts "Congratulations #{winner(board)}!"
-else
+elsif draw?(board)
   "Cat's Game!"
 end
   end
