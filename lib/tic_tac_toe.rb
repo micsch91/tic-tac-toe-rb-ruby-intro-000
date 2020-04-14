@@ -144,4 +144,3 @@ if won?(board)
 else
   "Cat's Game!"
 end
-  end
