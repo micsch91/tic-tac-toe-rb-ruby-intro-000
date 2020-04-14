@@ -132,3 +132,5 @@ end
       end
     end
   end
+
+def play(board)
