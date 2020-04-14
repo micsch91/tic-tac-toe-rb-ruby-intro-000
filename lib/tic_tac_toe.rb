@@ -52,7 +52,7 @@ end
     input = gets.strip
     index = input_to_index(input)
     if valid_move?(board, index)
-      move(board, index)
+      move(turn, board, index)
       display_board(board)
     else
       turn(board)
