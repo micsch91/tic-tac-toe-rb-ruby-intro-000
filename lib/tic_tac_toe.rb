@@ -138,9 +138,9 @@ until over?(board)
   turn(board)
 end
   end
-  
+
 if won?(board)
-  "Congratulations #{winner(board)!}"
+  "Congratulations #{winner(board)}!"
 else
   "Cat's Game!"
 end
